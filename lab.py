@@ -41,6 +41,9 @@ class Cars(object):
         self.eng = True
         return "Brrrr!!! Engine Started. You ready to move"
 
+
+class Lada(cars):
+    engine = " "
 class Audi(Cars):
     """
     Audi class
